@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell//cell",
+  "@id": "https://annonatate.github.io/mirador-examples/img/derivatives/iiif/cell//cell",
   "height": 1005,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
