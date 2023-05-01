@@ -16,7 +16,7 @@ layout: null
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
 "manifests": [{% for manifest in manifests %}{
-{{'url' | jsonify}}:{{site.url | append: site.baseurl | append: manifest.url| append: manifest.ext | jsonify}},{%if manifest.thumbnail%}{{'thumbnail' | jsonify }}: {{manifest.thumbnail | jsonify}}, {{'title' | jsonify }}: {{manifest.title | jsonify}}{% else %}{{'json' | jsonify}}:{{manifest.content | jsonify}}, {{'iiif' | jsonify}}: {{true | jsonify}}, {{'upload' | jsonify}}: {{true | jsonify}}{%endif%}
+{{'url' | jsonify}}:{{site.url | append: site.baseurl | append: manifest.url| append: manifest.ext | jsonify}}, {{'iiif' | jsonify}}: {{true | jsonify}}, {{'upload' | jsonify}}: {{true | jsonify}},{{'added' | jsonify}}: {{manifest.added | jsonify}},{%if manifest.thumbnail%}{{'thumbnail' | jsonify }}: {{manifest.thumbnail | jsonify}}, {{'title' | jsonify }}: {{manifest.title | jsonify}}{% else %}{{'json' | jsonify}}:{{manifest.content | jsonify}}{%endif%}
 }{% unless forloop.last %},{% endunless %}{% endfor %}], "images": {{imagearray| jsonify}}, 
  "preloadedcontent": {{site.data.preload | jsonify}},
 "customviews": [{% for customview in customviews %}{
