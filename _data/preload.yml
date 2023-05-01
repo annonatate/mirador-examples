@@ -1,19 +1,58 @@
 images:
-- https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
-- https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
-- https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
-manifests:
-- https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
-- https://dnoneill.github.io/annotate/manifests/parismap.json
-- https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json
-- https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json
-- https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest.json
-- https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json
-- https://d.lib.ncsu.edu/collections/catalog/nubian-message-2002-04-18/manifest.json
-- https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest
-- https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
-- https://purl.stanford.edu/wh234bz9013/iiif/manifest
+- iiif: true
+  thumbnail: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/full/120,/0/default.jpg
+  title: ''
+  url: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
+- iiif: false
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
+  title: ''
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
+- iiif: false
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
+  title: ''
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg
+  title: Bayeux Tapestry
+  url: https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
+- iiif: true
+  thumbnail: https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/full/120,/0/default.jpg
+  title: Paris, France 1924
+  url: https://dnoneill.github.io/annotate/manifests/parismap.json
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/mc00084-001-te0159-000-001_0001/full/150,/0/default.jpg
+  title: NCSU - University Plaza -- "Chrysalis" Sketches
+  url: https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017/full/150,/0/default.jpg
+  title: 1911 Building May 2017
+  url: https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/mc00240-001-ff0093-001-001_0010/full/150,/0/default.jpg
+  title: Cross section, interior details
+  url: https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest.json
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/0002386/full/150,/0/default.jpg
+  title: Aerial view of University Plaza (the Brickyard)
+  url: https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/nubian-message-2002-04-18/full/150,/0/default.jpg
+  title: Nubian Message, April 18, 2002
+  url: https://d.lib.ncsu.edu/collections/catalog/nubian-message-2002-04-18/manifest.json
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/segIns_004/full/150,/0/default.jpg
+  title: Insectes. Plate 1
+  url: https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest
+- iiif: true
+  thumbnail: https://damsssl.llgc.org.uk/iiif/2.0/4665992/res/4665993.jpg
+  title: Plan of Llandrindod parish in the County of Radnor
+  url: https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
+- iiif: true
+  thumbnail: https://stacks.stanford.edu/image/iiif/wh234bz9013/wh234bz9013_05_0001/full/!400,400/0/default.jpg
+  title: "H\xC6MISPH\xC6RIUM STELLATVM BOREALE CVM SUBIECTO H\xC6MISPH\xC6RO TERRESTRI."
+  url: https://purl.stanford.edu/wh234bz9013/iiif/manifest
 settings:
   tempuser: notenabled
   viewer: mirador
   widgets: comment-with-purpose, tag, geotagging
+version: '2.0'
