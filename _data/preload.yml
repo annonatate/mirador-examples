@@ -52,7 +52,5 @@ images:
   title: "H\xC6MISPH\xC6RIUM STELLATVM BOREALE CVM SUBIECTO H\xC6MISPH\xC6RO TERRESTRI."
   url: https://purl.stanford.edu/wh234bz9013/iiif/manifest
 settings:
-  tempuser: notenabled
   viewer: mirador
-  widgets: comment-with-purpose, tag, geotagging
-version: '2.0'
+version: '2.1'
